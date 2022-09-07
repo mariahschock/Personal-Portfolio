@@ -4,7 +4,7 @@ import {
   Route,
 } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import AboutMe from './AboutMe';
+import Projects from './Projects';
 
 import './App.css';
 
@@ -17,8 +17,8 @@ function App() {
           <Route exact path="/">
             <LandingPage />
           </Route>
-          <Route exact path="/about">
-            <AboutMe />
+          <Route exact path="/projects">
+            <Projects />
           </Route>
         </Switch>  
       </div>
