@@ -3,6 +3,7 @@ import Mariah from './Mariah.jpg';
 import './App.css';
 
 export default function LandingPage() {
+  
   return (
     <div className="home">
       <div className="me">
