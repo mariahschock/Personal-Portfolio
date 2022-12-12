@@ -30,12 +30,13 @@ body {
   width: 400px;
   padding: 20px;
   border: 2px solid black;
+  border-radius: 10px;
 }
 .hover {
   font-size: 1.5em;
   text-align: right;
   padding: 20px;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 .landing-btn {
   display:flex;
@@ -49,6 +50,7 @@ body {
 .landing-btn:hover {
   cursor: pointer;
   opacity: 0.7;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
 }
 .project-page {
   font-size: 2em;
@@ -58,6 +60,7 @@ body {
   padding: 20px;
   border: 2px solid black;
   margin: 20px;
+  border-radius: 10px;
 }
 .projects {
   display: flex;
@@ -65,6 +68,28 @@ body {
 }
 .description {
   text-align: left;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.code-link, .project-link {
+  border: 1px black;
+  padding: 5px;
+  text-decoration: none;
+  color:black;
+  outline: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 7px;
+}
+.code-link:hover, .project-link:hover{
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  color:black;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
 }
 .taco {
   display: flex;
@@ -75,6 +100,10 @@ body {
   flex-direction: row;
 }
 .termagotchi {
+  display: flex;
+  flex-direction: row;
+}
+.happy {
   display: flex;
   flex-direction: row;
 }

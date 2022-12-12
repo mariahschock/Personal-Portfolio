@@ -12,10 +12,10 @@ export default function LandingPage() {
     setHover(!hover);
   };
 
-  const clickHandler = () => {
+  function clickHandler() {
     history.push('/projects');
     history.go();
-  };
+  }
   
   return (
     <div className="home">
@@ -28,7 +28,7 @@ export default function LandingPage() {
         />
       </div>
       <div className="hover">
-        {hover && <p>I&apos;m a full-stack software engineer with a passion for curating a functional user experience through consent driven teamwork. My main technologies include React and Node while working in SQL databases. If I&apos;m not at my computer typing away, you can find me outside, cozied up with a book, dancing, or spending quality time with my friends. </p>}
+        {hover && <p>I have a passion for curating a functional user experience through consent driven teamwork. My main technologies include React and Node while working in SQL databases. If I&apos;m not at my computer typing away, you can find me outside, cozied up with a book, dancing, or spending quality time with my friends. </p>}
       </div>
       <div className="button">
         <button onClick={clickHandler} className="landing-btn">Check me out!</button>
