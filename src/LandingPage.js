@@ -18,7 +18,7 @@ export default function LandingPage() {
   }
   
   return (
-    <div className="home">
+    <div className="home-page">
       <div className="me">
         <h1>Well Hi! <br /> My Name is Mariah, and I&apos;m a Full-Stack Software Engineer.</h1> 
         <img 

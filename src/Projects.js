@@ -3,12 +3,20 @@ import project1 from './Taco-bout-it.png';
 import project2 from './Müsík-by-Jams.jpg';
 import project3 from './Termagotchi.png';
 import project4 from './Happy-tails.png';
+import { useHistory } from 'react-router-dom';
 import './App.css';
 
 export default function Projects() {
+  const history = useHistory();
+
+  function clickHandler() {
+    history.push('/');
+    history.go();
+  }
   return (
     <div className="project-page">
       <header>
+        <button onClick={clickHandler} className="home">Take me back</button>
         <h1>Projects I&apos;m Proud Of</h1>
       </header>
       <div className="projects">

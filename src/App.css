@@ -62,6 +62,18 @@ body {
   margin: 20px;
   border-radius: 10px;
 }
+.home {
+  display: flex;
+  padding: 5x;
+  font-family: monospace;
+  font-size: .75em;
+  border-radius: 5px;
+}
+.home:hover {
+  cursor:pointer;
+  opacity: 0.7;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
 .projects {
   display: flex;
   flex-direction: column;
