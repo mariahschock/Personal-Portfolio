@@ -36,7 +36,9 @@ body {
   font-size: 1.5em;
   text-align: right;
   padding: 20px;
+  margin-right: 275px;
   margin-left: 300px;
+  position: absolute;
 }
 .landing-btn {
   display:flex;
