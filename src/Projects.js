@@ -3,6 +3,10 @@ import project1 from './Taco-bout-it.png';
 import project2 from './Müsík-by-Jams.jpg';
 import project3 from './Termagotchi.png';
 import project4 from './Happy-tails.png';
+import Leo from './Leo.png';
+import TK from './TK.png';
+import Phoebe from './Phoebe.png';
+import Bruce from './Bruce.png';
 import { useHistory } from 'react-router-dom';
 import './App.css';
 
@@ -63,6 +67,18 @@ export default function Projects() {
             </div>
           </div>
           <img src={project4} />
+        </div>
+        <div className="babes">
+          <div className="description">
+            <h2>The Babes</h2>
+            <p>Possibly my best accomplishments in life and part of the reason I do what I do... Meet Leo, TK (Thicc Kitty), Phoebe, and Bruce!</p>
+            <div className="pics">
+              <img src={Leo} />
+              <img src={TK} />
+              <img src={Phoebe} />
+              <img src={Bruce} />
+            </div>
+          </div>
         </div>
       </div>
     </div>
